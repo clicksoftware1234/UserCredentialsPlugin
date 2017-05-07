@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ 
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+           id="UserCredentialsPlugin"
+      version="1.0.0">
+    <name>UserCredentialsPlugin</name>
+    <description>Custom plug in for ClickMobile. Stores user credentials localy? </description>
+    <license>MIT</license>
+
+    <keywords></keywords>
+
+    <engines>
+        <engine name="cordova" version=">=3.0.0" />
+    </engines> 
+ 
+    <js-module src="www/UserCredentialsPlugin.js" name="UserCredentialsPlugin"></js-module>
+    
+    <!-- ios -->
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="UserCredentialsPlugin">
+                <param name="ios-package" value="UserCredentialsPlugin"/>
+            </feature>
+        </config-file>
+        <header-file src="src/ios/UserCredentialsPlugin.h" />
+        <source-file src="src/ios/UserCredentialsPlugin.m" />                      
+    </platform>
+
+    
+</plugin>

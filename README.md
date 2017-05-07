@@ -1,0 +1,1 @@
+This is a custom Cordova plugin for ClickMobile
