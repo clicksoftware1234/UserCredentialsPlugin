@@ -1,0 +1,23 @@
+{
+  "name": "UserCredentialsPlugin",
+  "version": "1.0.0",
+  "description": "Custom plug in for ClickMobile. Stores user credentials localy?",
+  "cordova": {
+    "id": "UserCredentialsPlugin",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clicksoftware1234/UserCredentialsPlugin.git"
+  },
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "author": "ClickMobile Native team",
+  "license": "MIT"
+}
