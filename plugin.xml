@@ -7,7 +7,6 @@
     <description>Custom plug in for ClickMobile. Stores user credentials localy? </description>
     <license>MIT</license>
 
-    <keywords></keywords>
 
     <engines>
         <engine name="cordova" version=">=3.0.0" />
